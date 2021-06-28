@@ -1,0 +1,4 @@
+shell:
+  program: /bin/tmux
+#  args:
+#    - --login
