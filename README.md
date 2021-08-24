@@ -13,6 +13,8 @@ Install:
  * zsh
  * fzf
 
+(I'm assuming that you are using ZSH as your main shell - `chsh -s $(which zsh)`).
+
 ### Dependencies from git clone
 
 Install [tpm](https://github.com/tmux-plugins/tpm#installation)
