@@ -17,12 +17,21 @@ Install:
 
 Install [tpm](https://github.com/tmux-plugins/tpm#installation)
 
-Install [oh-my-zsh](https://ohmyz.sh/#install) and enable: `fzf` in `~/.zshrc`:
+Install [oh-my-zsh](https://ohmyz.sh/#install), and zsh-autocomplete:
+
+```sh
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+```
+
+and enable: `fzf` and autocomplete in `~/.zshrc`:
 
 ```sh
 # you can add other but remember about fzf
-plugins=(fzf)
+plugins=(fzf zsh-autosuggestions zsh-syntax-highlighting)
 ```
+
+Install zsh-autocomplete 
 
 ### Itermified config
 
