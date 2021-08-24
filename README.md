@@ -35,16 +35,18 @@ mkdir -p ~/.config/tmux
 ln -s ~/.itermify/tmux.conf ~/.config/tmux/tmux.conf
 ```
 
-## Run
+## Running
 
 ```sh
 ~/.itermify/itermify.sh
 ```
 (you can create an `alias` for it).
 
-Enjoy a fast terminal
+During the first run right-click in lower-right corder and select "Install plugins".
 
- * integrated with tmux
- * with a mouse bindings support
- * with a command history (under Ctrl+R)
- * with a search across buffer (with tmux buffer searching, under right click menu -> search regexp)
+Enjoy a fast terminal:
+
+ * integrated with Tmux (because it IS tmux)
+ * with a mouse bindings support (added by Itermify)
+ * with a command history search (under Ctrl+R)
+ * with a search across buffer (with Tmux buffer searching, under right-click menu on pane -> Search regexp)
