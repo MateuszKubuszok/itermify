@@ -29,24 +29,16 @@ plugins=(fzf)
 Install itermify:
 ```sh
 git clone https://github.com/MateuszKubuszok/itermify ~/.itermify
-# edit ~/.itermify/alacritty.yml to have absolut path in shell pointing to dir in your HOME
 
 # Required since tpm cannot configure .tmux.conf location
 mkdir -p ~/.config/tmux
 ln -s ~/.itermify/tmux.conf ~/.config/tmux/tmux.conf
 ```
 
-Make sure that:
-
- * `~/.tmux.conf` and
- * `~/.config/alacritty/alacritty.yml`
-
-exists. You can put your customizations there.
-
 ## Run
 
 ```sh
-alacritty --config-file ~/.itermify/alacritty.yml --option env.USER_SHELL=$SHELL
+~/.itermify/itermify.sh
 ```
 (you can create an `alias` for it).
 
