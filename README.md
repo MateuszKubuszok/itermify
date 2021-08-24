@@ -50,4 +50,9 @@ alacritty --config-file ~/.itermify/alacritty.yml --option env.USER_SHELL=$SHELL
 ```
 (you can create an `alias` for it).
 
-Enjoy a fast terminal, integrated with tmux and with a mouse bindings support.
+Enjoy a fast terminal
+
+ * integrated with tmux
+ * with a mouse bindings support
+ * with a command history (under Ctrl+R)
+ * with a search across buffer (with tmux buffer searching, under right click menu -> search regexp)
