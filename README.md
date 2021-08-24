@@ -4,20 +4,21 @@ Poor man's attempt to bring some ITerm2 features to alacritty:
 
 ## Installation
 
+Install tpm:
+
+```sh
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+```
+
 Run:
 ```sh
-git clone https://github.com/MateuszKubuszok/itermify $HOME/.itermify
+git clone https://github.com/MateuszKubuszok/itermify ~/.itermify
 ```
 
-Add to `.alacritty.yml`:
-```yml
-include:
-  - $HOME/.itermify/.itermify.alacritty.yml
-```
+Run
 
-Add to `.tmux.conf` (requires tpm):
-```conf
-source-file $HOME/.itermify/.itermify.tmux.conf
-
-run -b '~/.tmux/plugins/tpm/tpm'
+```sh
+alacritty --config-file ~/.itermify/alacritty.yml --option env.USER_SHELL=$SHEL
 ```
+(you can create an alias for it).
+

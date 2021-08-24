@@ -1,0 +1,9 @@
+title: Alacrity Itermified
+shell:
+  program: tmux
+  args:
+    - -f
+    #- ~/.itermify/tmux.conf
+    - /Users/dev/.itermify/tmux.conf
+import:
+  - ~/.config/.alacritty.yml
