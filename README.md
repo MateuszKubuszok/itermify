@@ -61,3 +61,12 @@ Enjoy a fast terminal:
  * with a mouse bindings support (added by Itermify)
  * with a command history search (under Ctrl+R)
  * with a search across buffer (with Tmux buffer searching, under right-click menu on pane -> Search regexp)
+
+### On MacOS
+
+* start Automator
+* create a new workflow
+* add "run shell script"
+* enter `zsh --login -c "~/.itermify/itermify.sh"`
+* save as Application in Applications folder
+* 
