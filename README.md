@@ -69,4 +69,3 @@ Enjoy a fast terminal:
 * add "run shell script"
 * enter `zsh --login -c "~/.itermify/itermify.sh"`
 * save as Application in Applications folder
-* 
