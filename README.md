@@ -12,6 +12,7 @@ Install:
  * tmux
  * zsh
  * fzf
+ * [tdrop](https://github.com/noctuid/tdrop) (for dropdown)
 
 (I'm assuming that you are using ZSH as your main shell - `chsh -s $(which zsh)`).
 
@@ -69,3 +70,23 @@ Enjoy a fast terminal:
 * add "run shell script"
 * enter `zsh --login -c "~/.itermify/itermify.sh"`
 * save as Application in Applications folder
+
+### Dropdown (outside MacOS)
+
+Run `tdrop` by calling ~/.itermify/dropdown.sh from some hotkey daemon e.g.
+
+Inside `.config/sxhkd/skhkdrc` (with [Simple X hotkey daemon](https://github.com/baskerville/sxhkd) installed):
+```
+# alt/option + ~ -> dropdown Itermify
+alt + grave
+	~/.itermify/dropdown.sh
+```
+and run it on autostart by creating `~/.config/autostart/sxhkd.desktop`
+```
+[Desktop Entry]
+Name=sxhkd
+Comment=Simple X hotkey daemon
+Exec=/usr/bin/sxhkd
+Terminal=false
+Type=Application
+```
