@@ -12,7 +12,7 @@ Install:
  * tmux
  * zsh
  * fzf
- * [tdrop](https://github.com/noctuid/tdrop) (for dropdown)
+ * [tdrop](https://github.com/noctuid/tdrop) (for dropdown on Linux)
 
 (I'm assuming that you are using ZSH as your main shell - `chsh -s $(which zsh)`).
 
@@ -63,7 +63,7 @@ Enjoy a fast terminal:
  * with a command history search (under Ctrl+R)
  * with a search across buffer (with Tmux buffer searching, under right-click menu on pane -> Search regexp)
 
-### On MacOS
+### Launchpad on MacOS
 
 * start Automator
 * create a new workflow
@@ -71,7 +71,7 @@ Enjoy a fast terminal:
 * enter `zsh --login -c "~/.itermify/itermify.sh"`
 * save as Application in Applications folder
 
-### Dropdown (outside MacOS)
+### Dropdown on Linux
 
 Run `tdrop` by calling ~/.itermify/dropdown.sh from some hotkey daemon e.g.
 
