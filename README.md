@@ -68,7 +68,7 @@ Enjoy a fast terminal:
 * start Automator
 * create a new workflow
 * add "run shell script"
-* enter `zsh --login -c "~/.itermify/itermify.sh"`
+* enter `zsh --login -c "~/.itermify/itermify.sh" >/dev/null 2>&1`
 * save as Application in Applications folder
 
 ### Dropdown on Linux
